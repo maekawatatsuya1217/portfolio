@@ -31,7 +31,7 @@
             <%= link_to image_tag("face.png", class: :face_image), root_path %>
           </div>
           <div class="about_description">
-            はじめまして！前川達也と申します。<br>高校生2年生の頃に、エンジニアになることを決意し、現在プログラミング学習中です。<br>具体的には毎日12時間ほどの学習を、3ヶ月間ほど継続しております。<br>将来の目標は「ユーザー目線でニーズを考え、多くのニーズを叶えられるエンジニア」<br>になる事です！
+            はじめまして！前川達也と申します。<br>高校生2年生の頃に、エンジニアになることを決意し、現在プログラミング学習中で<br>す。具体的には毎日12時間ほどの学習を、3ヶ月間ほど継続しております。<br>将来の目標は「ユーザー目線でニーズを考え、多くのニーズを叶えられるエンジニア」<br>になる事です！この目標の実現の為に、試行錯誤を重ねながら努力しております。
           </div>
         </div>
         <div class="read_more_btn">
@@ -123,6 +123,66 @@
         </div>
         <div class="read_more_btn">
           <%= link_to "READ MORE", root_path, class: :read_more_message4 %> 
+        </div>
+      </div>
+
+      <%# 隙間 %>
+      <div class="content_gap"></div>
+
+      <%# Skill %>
+      <div class="skill_area">
+        <div class="area_title">
+          Skill
+        </div>
+
+        <div class="skill_content">
+          <ul class="list_feature">
+            <li>
+              <%= image_tag 'html.png', size: '120x120', class: :skill_image %>
+              <p class="ttl skill_list">HTML5</p>
+              <p class="description">テキストテキストテキストテキストテキストテキス<br>テキストテキストテキストテキストテキストテキス<br>テキストテキストテキストテキストテキストテキス</p>
+            </li>
+            <li>
+              <%= image_tag 'css.png', size: '120x120', class: :skill_image %>
+              <p class="ttl skill_list">CSS3</p>
+              <p class="description">テキストテキストテキストテキストテキストテキス<br>テキストテキストテキストテキストテキストテキス<br>テキストテキストテキストテキストテキストテキス</p>
+            </li>
+            <li>
+              <%= image_tag 'js.png' , size: '120x120', class: :skill_image %>
+              <p class="ttl skill_list">Javascript</p>
+              <p class="description">テキストテキストテキストテキストテキストテキス<br>テキストテキストテキストテキストテキストテキス<br>テキストテキストテキストテキストテキストテキス</p>
+            </li>
+            <li>
+              <%= image_tag 'ruby.png' , size: '120x120', class: :skill_image2 %>
+              <p class="ttl skill_list">Ruby</p>
+              <p class="description">テキストテキストテキストテキストテキストテキス<br>テキストテキストテキストテキストテキストテキス<br>テキストテキストテキストテキストテキストテキス</p>
+            </li>
+            <li>
+              <%= image_tag 'rails.png' , size: '120x120', class: :skill_image2 %>
+              <p class="ttl skill_list">Ruby on Rails</p>
+              <p class="description">テキストテキストテキストテキストテキストテキス<br>テキストテキストテキストテキストテキストテキス<br>テキストテキストテキストテキストテキストテキス</p>
+            </li>
+            <li>
+              <%= image_tag 'github.png' , size: '120x120', class: :skill_image2 %>
+              <p class="ttl skill_list">Git Hub</p>
+              <p class="description">テキストテキストテキストテキストテキストテキス<br>テキストテキストテキストテキストテキストテキス<br>テキストテキストテキストテキストテキストテキス</p>
+            </li>
+            <li>
+              <%= image_tag 'heroku.png' , size: '120x120', class: :skill_image3 %>
+              <p class="ttl skill_list">Heroku</p>
+              <p class="description">テキストテキストテキストテキストテキストテキス<br>テキストテキストテキストテキストテキストテキス<br>テキストテキストテキストテキストテキストテキス</p>
+            </li>
+            <li>
+              <%= image_tag 'aws.png' , size: '120x120', class: :skill_image3 %>
+              <p class="ttl skill_list">AWS</p>
+              <p class="description">テキストテキストテキストテキストテキストテキス<br>テキストテキストテキストテキストテキストテキス<br>テキストテキストテキストテキストテキストテキス</p>
+            </li>
+            <li>
+              <%= image_tag 'mysql.png' , size: '120x120', class: :skill_image3 %>
+              <p class="ttl skill_list">Mysql</p>
+              <p class="description">テキストテキストテキストテキストテキストテキス<br>テキストテキストテキストテキストテキストテキス<br>テキストテキストテキストテキストテキストテキス</p>
+            </li>
+          </ul>
         </div>
       </div>
     </main>

@@ -202,3 +202,56 @@ main{
 .read_more_message4{
   color: rgb(116, 235, 217);
 }
+
+/* works */
+
+.skill_area{
+  height: 100%;
+  background-color: #f9f9f9;
+  padding: 50px;
+  border-radius: 50px;
+}
+
+.list_feature{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.list_feature > li{
+  width: 33.33333%;
+  padding: 0 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 50px;
+}
+
+.skill_image{
+  border-radius: 60px;
+}
+
+.skill_image2{
+  border-radius: 60px;
+  margin-top: 40px;
+}
+
+.skill_image3{
+  border-radius: 60px;
+  margin-top: 40px;
+}
+
+.list_feature  .ttl{
+  width: 200px;
+  font-size: 25px;
+  text-align: center;
+  margin: 10px 0 20px;
+}
+
+.list_feature .description{
+  line-height: 30px;
+}
+
+.skill_list{
+  color: black;
+  text-shadow: 0 0 10px #fff,0 0 15px #fff;
+}
