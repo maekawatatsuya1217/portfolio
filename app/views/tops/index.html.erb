@@ -6,6 +6,7 @@
     <title>portfolio</title>
   </head>
   <body>
+
     <%# ヘッダー %>
     <header class="header">
       <div class="area_logo_header">
@@ -17,6 +18,7 @@
         <%= link_to "Skill", root_path, class: :nav_btn %>
       </div>
     </header>
+
     <%# メイン %>
     <main>
       <%# About %>
@@ -24,7 +26,7 @@
         <div class="area_title">
           About
         </div>
-        <div class="about_content">
+        <div class="content">
           <div class="about_image_area">
             <%= link_to image_tag("face.png", class: :face_image), root_path %>
           </div>
@@ -36,8 +38,38 @@
           <%= link_to "READ MORE", root_path, class: :read_more_message %> 
         </div>
       </div>
+
       <%# 隙間 %>
       <div class="content_gap"></div>
+
+      <%# Works %>
+      <div class="works_area">
+        <div class="area_title">
+          Works
+        </div>
+
+        <%# プログラミング学習アプリ %>
+        <div class="content">
+          <div class="works_image_area">
+            <%= image_tag("https://i.gyazo.com/0a7815f70b655dffefd74d23e9537325.gif", class: :works_image1) %>
+          </div>
+          <div class="about_description">
+            <p class="description_title1">プログラミング学習アプリ</p>
+            <p>ー概要ー<br>プログラミング学習初心者の学習を、サポートする為に開発したアプリ。</p>
+            <p>ー機能ー<br>ブログ機能、振り返りフォーム機能、カレンダー機能、非同期コメント機能</p>
+            <p>ー言語ー<br>HTML5/CSS3/Javascript/Ruby(Ruby on rails)</p>
+            <p>ーその他ー<br>Heroku/Git Hub/Ajax/ransack/active hash</p>
+          </div>
+        </div>
+        <div class="read_more_btn">
+          <%= link_to "READ MORE", root_path, class: :read_more_message1 %> 
+        </div>
+
+        <%# works同士の隙間 %>
+        <div class="works_gap"></div>
+
+
+      </div>
     </main>
   </body>
 </html>
