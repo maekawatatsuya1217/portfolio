@@ -46,3 +46,40 @@ input:-webkit-autofill {
   border: thin solid rgb(53, 53, 53);
   box-shadow: 0 0 0 1000px white inset;
 }
+
+/* ヘッダー */
+
+.header{
+  background: hsla(0,0%,100%,.7);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 200px;
+}
+
+.header_menu{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100px;
+  background-color: rgb(255, 255, 255);
+  padding: 0 50px;
+  font-size: 23px;
+}
+
+.logo{
+  height: 100px;
+  width: 150px;
+}
+
+.nav_btn{
+  height: 30px;
+  margin: 0 50px;
+  font-family: Sofia,cursive;
+}
+
+.nav_btn:hover{
+  color: rgb(126, 222, 238);
+  text-decoration: underline;
+  border-radius: 35px;
+}

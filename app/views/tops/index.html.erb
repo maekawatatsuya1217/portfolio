@@ -6,5 +6,16 @@
     <title>portfolio</title>
   </head>
   <body>
+    <%# ヘッダー %>
+    <header class="header">
+      <div class="area_logo_header">
+          <%= link_to image_tag("portfolio_logo.png", class: :logo), root_path %>
+      </div>
+      <div class="header_menu">
+          <%= link_to "about", root_path, class: :nav_btn %>
+          <%= link_to "works", root_path, class: :nav_btn %>
+          <%= link_to "skill", root_path, class: :nav_btn %>
+      </div>
+    </header>
   </body>
 </html>
