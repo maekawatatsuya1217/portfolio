@@ -87,7 +87,6 @@ input:-webkit-autofill {
 /* メイン */
 
 main{
-  background-color: #f9f9f9;
   height: calc(100% - 120px - 0px);
 }
 
@@ -95,13 +94,20 @@ main{
   font-size: 50px;
   font-family: Sofia,cursive;
   margin-bottom: 100px;
+  text-decoration: underline  rgb(190, 245, 255);
+}
+
+.content_gap{
+  height: 100px;
 }
 
 /* about */
 
 .about_area{
   height: 550px;
-  padding: 100px 100px 50px; 
+  background-color: #f9f9f9;
+  padding: 100px 100px 50px;
+  border-radius: 50px;
 }
 
 .about_content{
