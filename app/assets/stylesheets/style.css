@@ -79,7 +79,58 @@ input:-webkit-autofill {
 }
 
 .nav_btn:hover{
-  color: rgb(126, 222, 238);
+  color: rgb(99, 209, 228);
   text-decoration: underline;
   border-radius: 35px;
+}
+
+/* メイン */
+
+main{
+  background-color: #f9f9f9;
+  height: calc(100% - 120px - 0px);
+}
+
+.area_title{
+  font-size: 50px;
+  font-family: Sofia,cursive;
+  margin-bottom: 100px;
+}
+
+/* about */
+
+.about_area{
+  height: 550px;
+  padding: 100px 100px 50px; 
+}
+
+.about_content{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: 0 100px;
+}
+
+.face_image{
+  height: 130px;
+  width: 150px;
+  border-radius: 100px;
+}
+
+.read_more_message{
+  color: #b1b1b1;
+}
+
+.read_more_btn{
+  width: 200px;
+  font-size: 20px;
+  text-align: center;
+  padding: 10px;
+  border: 1px solid #b1b1b1;
+  border-radius: 25px;
+  margin: 60px 60px 60px 520px;
+}
+
+.read_more_btn:hover{
+  text-decoration: underline;
 }

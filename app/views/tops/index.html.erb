@@ -9,13 +9,33 @@
     <%# ヘッダー %>
     <header class="header">
       <div class="area_logo_header">
-          <%= link_to image_tag("portfolio_logo.png", class: :logo), root_path %>
+        <%= link_to image_tag("portfolio_logo.png", class: :logo), root_path %>
       </div>
       <div class="header_menu">
-          <%= link_to "about", root_path, class: :nav_btn %>
-          <%= link_to "works", root_path, class: :nav_btn %>
-          <%= link_to "skill", root_path, class: :nav_btn %>
+        <%= link_to "about", root_path, class: :nav_btn %>
+        <%= link_to "works", root_path, class: :nav_btn %>
+        <%= link_to "skill", root_path, class: :nav_btn %>
       </div>
     </header>
+    <%# メイン %>
+    <main>
+      <%# about %>
+      <div class="about_area">
+        <div class="area_title">
+          About
+        </div>
+        <div class="about_content">
+          <div class="about_image_area">
+            <%= link_to image_tag("face.png", class: :face_image), root_path %>
+          </div>
+          <div class="about_description">
+            はじめまして！前川達也と申します。<br>高校生2年生の頃に、エンジニアになることを決意し、現在プログラミング学習中です。<br>具体的には毎日12時間ほどの学習を、3ヶ月間ほど継続しております。<br>将来の目標は「ユーザー目線でニーズを考え、多くのニーズを叶えられるエンジニア」<br>になる事です！
+          </div>
+        </div>
+        <div class="read_more_btn">
+          <%= link_to "READ MORE", root_path, class: :read_more_message %> 
+        </div>
+      </div>
+    </main>
   </body>
 </html>
