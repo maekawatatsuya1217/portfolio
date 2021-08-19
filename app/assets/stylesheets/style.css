@@ -91,7 +91,7 @@ main{
 }
 
 .area_title{
-  font-size: 55px;
+  font-size: 60px;
   font-family: Sofia,cursive;
   margin-bottom: 100px;
   text-decoration: underline  rgb(190, 245, 255);
@@ -185,6 +185,10 @@ main{
 
 .works_gap{
   height: 150px;
+}
+
+.read_more_message0{
+  color: #b1b1b1;
 }
 
 .read_more_message1{
