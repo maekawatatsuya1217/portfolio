@@ -259,3 +259,24 @@ main{
   color: black;
   text-shadow: 0 0 10px #fff,0 0 15px #fff;
 }
+
+/* フッター */
+
+.footer_area{
+  height: 100%;
+  background-color: #f9f9f9;
+  padding: 50px;
+  border-radius: 50px;
+}
+
+.top_btn {
+  color: #7b7b7b;
+  width: 78px;
+  margin: 30px auto;
+  padding: 5px;
+  text-decoration: underline;
+}
+
+.copyright{
+  text-align: center;
+}
