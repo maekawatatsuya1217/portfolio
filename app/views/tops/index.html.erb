@@ -1,0 +1,200 @@
+<!DOCTYPE HTML>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <title>portfolio</title>
+  </head>
+  <body>
+
+    <%# ヘッダー %>
+    <header class="header">
+      <div class="area_logo_header">
+        <%= link_to image_tag("portfolio_logo.png", class: :logo), root_path %>
+      </div>
+      <div class="header_menu">
+        <%= link_to "About", root_path, class: :nav_btn %>
+        <%= link_to "Works", root_path, class: :nav_btn %>
+        <%= link_to "Skill", root_path, class: :nav_btn %>
+      </div>
+    </header>
+
+    <%# メイン %>
+    <main>
+      <%# About %>
+      <div class="about_area">
+        <div class="area_title">
+          About
+        </div>
+        <div class="content">
+          <div class="about_image_area">
+            <%= link_to image_tag("face.png", class: :face_image), root_path %>
+          </div>
+          <div class="about_description">
+            はじめまして！前川達也と申します。<br>高校生2年生の頃に、エンジニアになることを決意し、現在プログラミング学習中で<br>す。具体的には毎日12時間ほどの学習を、3ヶ月間ほど継続しております。<br>将来の目標は「ユーザー目線でニーズを考え、多くのニーズを叶えられるエンジニア」<br>になる事です！この目標の実現の為に、試行錯誤を重ねながら努力しております。
+          </div>
+        </div>
+        <div class="read_more_btn">
+          <%= link_to "READ MORE", root_path, class: :read_more_message0 %> 
+        </div>
+      </div>
+
+      <%# 隙間 %>
+      <div class="content_gap"></div>
+
+      <%# Works %>
+      <div class="works_area">
+        <div class="area_title">
+          Works
+        </div>
+
+        <%# プログラミング学習アプリ %>
+        <div class="content">
+          <div class="works_image_area">
+            <%= image_tag("https://i.gyazo.com/0a7815f70b655dffefd74d23e9537325.gif", class: :works_image1) %>
+          </div>
+          <div class="about_description">
+            <p class="description_title1">プログラミング学習アプリ</p>
+            <p>ー概要ー<br>プログラミング学習初心者の学習を、サポートする為に開発したアプリ。</p>
+            <p>ー機能ー<br>ブログ機能、振り返りフォーム機能、カレンダー機能、非同期コメント機能</p>
+            <p>ー言語ー<br>HTML5/CSS3/Javascript/Ruby(Ruby on rails)</p>
+            <p>ーその他ー<br>Heroku/Git Hub/Ajax/ransack/active hash/Rspec</p>
+          </div>
+        </div>
+        <div class="read_more_btn">
+          <%= link_to "READ MORE", root_path, class: :read_more_message1 %> 
+        </div>
+
+        <%# works同士の隙間 %>
+        <div class="works_gap"></div>
+
+        <%# 本の紹介アプリ %>
+        <div class="content">
+          <div class="about_description">
+            <p class="description_title2">本紹介アプリ</p>
+            <p>ー概要ー<br>読書好きの人が、気軽にコミュニケーションを取れるアプリ。</p>
+            <p>ー機能ー<br>シェア機能、メモ機能、非同期コメント機能</p>
+            <p>ー言語ー<br>HTML5/CSS3/Javascript/Ruby(Ruby on rails)</p>
+            <p>ーその他ー<br>Heroku/Git Hub/Ajax/ransack/active hash/Rspec</p>
+          </div>
+          <div class="works_image_area">
+            <%= image_tag("https://i.gyazo.com/bbdb3131a44d8b8b7387f8e067b498b3.gif", class: :works_image2) %>
+          </div>
+        </div>
+        <div class="read_more_btn">
+          <%= link_to "READ MORE", root_path, class: :read_more_message2 %> 
+        </div>
+
+        <%# works同士の隙間 %>
+        <div class="works_gap"></div>
+        
+        <%# スポーツアプリ %>
+        <div class="content">
+          <div class="works_image_area">
+            <%= image_tag("https://i.gyazo.com/29866ccbadac47d4bd3b890d8f81f66b.gif", class: :works_image1) %>
+          </div>
+          <div class="about_description">
+            <p class="description_title3">スポーツチーム紹介アプリ</p>
+            <p>ー概要ー<br>個人が自分に合ったスポーツチームを見つける為のアプリ。</p>
+            <p>ー機能ー<br>ツイート機能、DM機能、つながり機能、非同期コメント機能</p>
+            <p>ー言語ー<br>HTML5/CSS3/Javascript/Ruby(Ruby on rails)</p>
+            <p>ーその他ー<br>Heroku/Git Hub/Ajax/ransack/active hash/Rspec</p>
+          </div>
+        </div>
+        <div class="read_more_btn">
+          <%= link_to "READ MORE", root_path, class: :read_more_message3 %> 
+        </div>
+
+        <%# works同士の隙間 %>
+        <div class="works_gap"></div>
+
+        <%# フリマアプリ %>
+        <div class="content">
+          <div class="about_description">
+            <p class="description_title4">フリマアプリ</p>
+            <p>ー概要ー<br>クレジットカード決済の機能を実装した、フリマアプリ。</p>
+            <p>ー機能ー<br>商品出品、購入機能、カード決済、非同期コメント機能</p>
+            <p>ー言語ー<br>HTML5/CSS3/Javascript/Ruby(Ruby on rails)</p>
+            <p>ーその他ー<br>AWS/Git Hub/Ajax/ransack/active hash/Rspec/Pay.jp</p>
+          </div>
+          <div class="works_image_area">
+            <%= image_tag("https://i.gyazo.com/18d8c4a7fa380e8724a584b076ee19ed.gif", class: :works_image2) %>
+          </div>
+        </div>
+        <div class="read_more_btn">
+          <%= link_to "READ MORE", root_path, class: :read_more_message4 %> 
+        </div>
+      </div>
+
+      <%# 隙間 %>
+      <div class="content_gap"></div>
+
+      <%# Skill %>
+      <div class="skill_area">
+        <div class="area_title">
+          Skill
+        </div>
+
+        <div class="skill_content">
+          <ul class="list_feature">
+            <li>
+              <%= image_tag 'html.png', size: '120x120', class: :skill_image %>
+              <p class="ttl skill_list">HTML5</p>
+              <p class="description">合計10個程度のアプリケーションを開発した経験が<br>あります。コーディングは問題なく行う事が可能で<br>す。エディタはVSCodeを使用しています。</p>
+            </li>
+            <li>
+              <%= image_tag 'css.png', size: '120x120', class: :skill_image %>
+              <p class="ttl skill_list">CSS3</p>
+              <p class="description">合計10個程度のアプリケーションを開発した経験が<br>あります。コーディングは問題なく行う事が可能で<br>す。Scssを利用して開発しています。</p>
+            </li>
+            <li>
+              <%= image_tag 'js.png' , size: '120x120', class: :skill_image %>
+              <p class="ttl skill_list">Javascript</p>
+              <p class="description">Ajax(非同期通信)を実装した経験や、Pay.jpを使<br>用したカード決済、アニメーションの経験などが<br>あります。基本的なコードは問題なく書けます。</p>
+            </li>
+            <li>
+              <%= image_tag 'ruby.png' , size: '120x120', class: :skill_image2 %>
+              <p class="ttl skill_list">Ruby</p>
+              <p class="description">3ヶ月程度アプリ開発を通して、学習を行ってきま<br>した。基本的な配列、ハッシュ、クラス、インスタ<br>ンスなどを理解し、コーディングできます。</p>
+            </li>
+            <li>
+              <%= image_tag 'rails.png' , size: '120x120', class: :skill_image2 %>
+              <p class="ttl skill_list">Ruby on Rails</p>
+              <p class="description">合計8個程のアプリケーションを開発した経験があり<br>ます。基本的にはエラーが発生したとしても、かなり<br>スムーズに解消する事が可能です。</p>
+            </li>
+            <li>
+              <%= image_tag 'github.png' , size: '120x120', class: :skill_image2 %>
+              <p class="ttl skill_list">Git Hub</p>
+              <p class="description">アプリ開発を通して、コミット〜プルまでの一連の流<br>れを理解する事ができています。またコンフリクトの<br>対処経験もあり、比較的迅速に対処できます。</p>
+            </li>
+            <li>
+              <%= image_tag 'heroku.png' , size: '120x120', class: :skill_image3 %>
+              <p class="ttl skill_list">Heroku</p>
+              <p class="description">アプリ開発を通じて、基本的な作業については理解で<br>きている状態です。エラーが発生した時もログを確認<br>し、予測を立てて迅速に解消する事が可能です。</p>
+            </li>
+            <li>
+              <%= image_tag 'aws.png' , size: '120x120', class: :skill_image3 %>
+              <p class="ttl skill_list">AWS</p>
+              <p class="description">4つの開発を通じて学びました。具体的にはEC2やS3<br>などを利用し開発を行った経験があります。少し時間<br>はかかりますが、作業する事が可能です。</p>
+            </li>
+            <li>
+              <%= image_tag 'mysql.png' , size: '120x120', class: :skill_image3 %>
+              <p class="ttl skill_list">Mysql</p>
+              <p class="description">合計10個程度のアプリケーションを開発した経験が<br>あります。オリジナルアプリは全てmysqlです。その<br>開発を積み重ね、理解度を高めてきました。</p>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </main>
+
+    <%# 隙間 %>
+    <div class="content_gap"></div>
+
+    <footer>
+      <div class="footer_area">
+        <div class="top_btn" id="btn">トップへ</div>
+        <p class="copyright">Copyright © portfolio All Rights Reserved.</p>
+      </div>
+    </footer>
+  </body>
+</html>
