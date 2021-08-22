@@ -10,6 +10,27 @@
   </head>
 
   <body>
+    <%# ヘッダー %>
+    <header class="header">
+      <div class="area_logo_header">
+        <%= link_to image_tag("portfolio_logo.png", class: :logo), root_path %>
+      </div>
+      <div class="header_menu">
+        <%= link_to "About", myself_tops_path, class: :nav_btn %>
+        <%= link_to "Works", root_path, class: :nav_btn %>
+        <%= link_to "Skill", root_path, class: :nav_btn %>
+      </div>
+    </header>
+
+    <%# メイン %>
     <%= yield %>
+
+    <%# フッター %>
+    <footer>
+      <div class="footer_area">
+        <div class="top_btn" id="btn">トップへ</div>
+        <p class="copyright">Copyright © portfolio All Rights Reserved.</p>
+      </div>
+    </footer>
   </body>
 </html>
