@@ -3,6 +3,5 @@ class TopsController < ApplicationController
     end
 
     def myself
-        
     end
 end
