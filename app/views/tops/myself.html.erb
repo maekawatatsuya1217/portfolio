@@ -2,15 +2,31 @@
   
   <%# About %>
   <div class="show_about_area">
-    <div class="area_title">
-      About
-    </div>
     <div class="content">
       <div class="about_image_area">
         <%= link_to image_tag("face.png", class: :face_image), myself_tops_path %>
       </div>
       <div class="about_description">
         はじめまして！前川達也と申します。<br>このページでは私の過去、現在、そして将来の目標を紹介いたします。<br>ぜひ、ご覧ください！
+      </div>
+    </div>
+  </div>
+
+  <%# 隙間 %>
+  <div class="content_gap"></div>
+
+  <%# Past %>
+  <div class="mini_about_area">
+    <div class="area_title">
+      Past
+    </div>
+    <div class="content">
+      <div class="about_description">
+        <p class="description_title1">高校生時代</p>
+        <p class="show_description">ー取り組んだことー<br><br>首席になるという大きな目標を持ち努力しておりました。<br>中学生の頃から苦手な学業に挑戦することによって、自分が大きく成長できると考えたからです。具体的には「質✖️量」の2つに拘り平日は4時間、休日は13時間程度学業に取り組みました。<br>その結果、1年程度で首席になるという大きな目標を達成する事ができています。<br>この経験から学んだ事は、自分で大きな目標を立て、積極的に努力することの楽しさや大切さです。また、自分の苦手だった事で大きな結果を出す事ができ、自分に自信を持てるようになりました。</p>
+      </div>
+      <div class="works_image_area">
+        <%= image_tag("think2.png", class: :works_image2) %>
       </div>
     </div>
   </div>
