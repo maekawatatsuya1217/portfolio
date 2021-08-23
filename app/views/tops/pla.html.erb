@@ -5,16 +5,33 @@
 
   <%# メイン %>
   <div class="mini_about_area">
+
     <div class="works_title">
       Programming learning app
     </div>
+
     <%= image_tag("https://i.gyazo.com/0a7815f70b655dffefd74d23e9537325.gif", class: :show_works_image) %>
-    <div class="mini_area_title">
+
+    <%# Overview %>
+    <div class="left_mini_area_title">
       Overview
     </div>
-    <div class="show_works_description">
+    <div class="left_works_description">
       <p>ー概要ー<br><br>このアプリケーションはプログラミング学習を開始して１〜２ヶ月目の初心者が学習を効率的に行えるようにする事を目的に作成しました。<br>ブログ機能、カレンダー機能、振り返りフォームなど私が実際に学習を経験して必要だと感じた機能や、あると便利だと感じた機能を実装しています。</p>
     </div>
+
+    <%# Function %>
+    <div class="right_mini_area_title">
+      Function
+    </div>
+    <div class="right_works_description">
+      <p>ーブログー<br><br>学習初心者によく見られる間違いとして、インプット過多で、アウトプットが不足しているという問題があります。そこでブログ機能を実装し、気軽にいつでもアウトプットできる環境を提供しようと考えました。</p>
+      <div class="works_description_gap"></div>
+      <p>ーカレンダーー<br><br>学習初期の頃に毎日の目標を定めていなかった為、学習を怠ってしまった時がありました。そこで、カレンダー機能を実装する事で毎日の目標を明確にし、学習を怠ってしまうことが無いように工夫しようと考えました。</p>
+      <div class="works_description_gap"></div>
+      <p>ー振り返りフォームー<br><br>毎日の学習をより良いものにする為には、学習の質を向上する必要があります。そこで、毎日の学習終了時に学習に関する振り返りをする事により、良くなかった点をどの様に工夫して改善するのかを、考える機会を提供しようと考えました。これによって学習の質を向上できる考えました。</p>
+    </div>
+
   </div>
 
   <%# 隙間 %>

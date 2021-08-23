@@ -318,9 +318,9 @@ main{
 // Works
 
 .show_works_image{
-  height: 300px;
-  width: 400px;
-  margin: 0 0 50px 420px;
+  height: 350px;
+  width: 450px;
+  margin: 0 0 50px 395px;
 }
 
 .works_title{
@@ -332,13 +332,28 @@ main{
 }
 
 
-.mini_area_title{
+.left_mini_area_title{
   font-size: 45px;
   font-family: Sofia,cursive;
-  margin: 50px 0 40px 100px;
+  margin: 50px 0 40px 50px;
 }
 
-.show_works_description{
-  margin-left: 170px;
+.left_works_description{
+  margin: 0 0 150px 110px;
   width: 550px;
+}
+
+.right_mini_area_title{
+  font-size: 45px;
+  font-family: Sofia,cursive;
+  margin: 0px 0 40px 520px;
+}
+
+.right_works_description{
+  margin: 0 0 100px 590px;
+  width: 550px;
+}
+
+.works_description_gap{
+  height: 25px;
 }
