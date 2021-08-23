@@ -323,8 +323,22 @@ main{
   margin: 0 0 50px 420px;
 }
 
+.works_title{
+  font-size: 60px;
+  font-family: Sofia,cursive;
+  margin-bottom: 100px;
+  text-decoration: underline  rgb(190, 245, 255);
+  text-align: center;
+}
+
+
 .mini_area_title{
   font-size: 45px;
   font-family: Sofia,cursive;
-  margin: 0 0 70px 100px;
+  margin: 50px 0 40px 100px;
+}
+
+.show_works_description{
+  margin-left: 170px;
+  width: 550px;
 }
