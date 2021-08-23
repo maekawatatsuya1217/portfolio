@@ -286,7 +286,7 @@ main{
   text-align: center;
 }
 
-// 自己紹介ページ
+// About
 
 .main{
   height: calc(100% - 120px - 218px);
@@ -313,4 +313,18 @@ main{
 
 .show_description_gap{
   height: 50px;
+}
+
+// Works
+
+.show_works_image{
+  height: 300px;
+  width: 400px;
+  margin: 0 0 50px 420px;
+}
+
+.mini_area_title{
+  font-size: 45px;
+  font-family: Sofia,cursive;
+  margin: 0 0 70px 100px;
 }
