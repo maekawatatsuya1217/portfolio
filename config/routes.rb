@@ -3,6 +3,7 @@ Rails.application.routes.draw do
   resources :tops, only: :index do
     collection do
       get 'myself'
+      get 'pla'
     end
   end
 end
