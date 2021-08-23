@@ -4,4 +4,7 @@ class TopsController < ApplicationController
 
     def myself
     end
+
+    def pla
+    end
 end
