@@ -3,6 +3,10 @@ Rails.application.routes.draw do
   resources :tops, only: :index do
     collection do
       get 'myself'
+      get 'pla'
+      get 'mba'
+      get 'sta'
+      get 'fa'
     end
   end
 end

@@ -286,7 +286,7 @@ main{
   text-align: center;
 }
 
-// 自己紹介ページ
+// About
 
 .main{
   height: calc(100% - 120px - 218px);
@@ -313,4 +313,71 @@ main{
 
 .show_description_gap{
   height: 50px;
+}
+
+// Works
+
+.show_works_image{
+  height: 350px;
+  width: 450px;
+  margin: 0 0 50px 395px;
+}
+
+.works_title{
+  font-size: 60px;
+  font-family: Sofia,cursive;
+  margin-bottom: 100px;
+  text-decoration: underline  rgb(190, 245, 255);
+  text-align: center;
+}
+
+.works_title2{
+  font-size: 60px;
+  font-family: Sofia,cursive;
+  margin-bottom: 100px;
+  text-decoration: underline  rgb(182, 255, 233);
+  text-align: center;
+}
+
+.works_title3{
+  font-size: 60px;
+  font-family: Sofia,cursive;
+  margin-bottom: 100px;
+  text-decoration: underline  rgb(186, 182, 255);
+  text-align: center;
+}
+
+.works_title4{
+  font-size: 60px;
+  font-family: Sofia,cursive;
+  margin-bottom: 100px;
+  text-decoration: underline  rgb(140, 255, 238);
+  text-align: center;
+}
+
+
+.left_mini_area_title{
+  font-size: 45px;
+  font-family: Sofia,cursive;
+  margin: 50px 0 40px 50px;
+}
+
+.left_works_description{
+  margin: 0 0 150px 110px;
+  width: 550px;
+}
+
+.right_mini_area_title{
+  font-size: 45px;
+  font-family: Sofia,cursive;
+  margin: 0px 0 40px 520px;
+}
+
+.right_works_description{
+  margin: 0 0 100px 590px;
+  width: 550px;
+}
+
+.works_description_gap{
+  height: 25px;
 }
