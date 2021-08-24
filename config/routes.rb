@@ -6,6 +6,7 @@ Rails.application.routes.draw do
       get 'pla'
       get 'mba'
       get 'sta'
+      get 'fa'
     end
   end
 end
