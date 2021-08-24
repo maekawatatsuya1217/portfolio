@@ -13,4 +13,7 @@ class TopsController < ApplicationController
 
     def sta
     end
+
+    def fa
+    end
 end
