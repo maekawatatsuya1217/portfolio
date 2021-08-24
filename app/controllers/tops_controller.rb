@@ -7,4 +7,7 @@ class TopsController < ApplicationController
 
     def pla
     end
+
+    def mba
+    end
 end
