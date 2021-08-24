@@ -5,6 +5,7 @@ Rails.application.routes.draw do
       get 'myself'
       get 'pla'
       get 'mba'
+      get 'sta'
     end
   end
 end
