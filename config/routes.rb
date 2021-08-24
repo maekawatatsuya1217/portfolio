@@ -4,6 +4,7 @@ Rails.application.routes.draw do
     collection do
       get 'myself'
       get 'pla'
+      get 'mba'
     end
   end
 end
