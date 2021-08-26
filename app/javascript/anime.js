@@ -1,8 +1,10 @@
 window.onload=function(){
 
+  // ローディング
   const spinner = document.getElementById('loading');
   spinner.classList.add('loaded');
   
+  // スクロール
   var scroll = document.querySelectorAll('.anime_up');
        
   var Animation = function() {
