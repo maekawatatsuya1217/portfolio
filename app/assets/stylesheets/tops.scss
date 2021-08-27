@@ -537,3 +537,24 @@ main{
   .content_gap {
     height: 20px;
   }
+
+  // About
+
+  .about_area{
+    height: 100%;
+    padding: 50px 0 50px;
+  }
+
+  .area_title {
+    font-size: 30px;
+    margin: 0 0 100px 50px;
+  }
+
+  .face_image{
+    display: none;
+  }
+
+  .read_more_btn{
+    margin: 30px auto 30px;
+  }
+}
