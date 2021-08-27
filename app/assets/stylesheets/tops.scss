@@ -510,3 +510,30 @@ main{
   opacity: 0;
   visibility: hidden;
 }
+
+/* スマホ表示時 */
+@media (max-width: 599px) {
+
+  // ヘッダー
+
+  .header{
+    padding: 10px 10px;
+  }
+
+  .header_menu {
+    font-size: 20px;
+  }
+
+  .logo{
+    display: none;
+  }
+
+  .nav_btn{
+    height: 30px;
+    margin: 0 30px;
+    font-family: Sofia,cursive;
+  }
+
+  .content_gap {
+    height: 20px;
+  }
