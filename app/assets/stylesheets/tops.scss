@@ -547,7 +547,7 @@ main{
 
   .area_title {
     font-size: 30px;
-    margin: 0 0 100px 50px;
+    margin: 0 0 50px 50px;
   }
 
   .face_image{
@@ -557,4 +557,30 @@ main{
   .read_more_btn{
     margin: 30px auto 30px;
   }
+
+  // Works
+
+  .works_area {
+    height: 100%;
+    padding: 50px 0;
+  }
+
+  .content {
+    display: block;
+    margin: 0 100px;
+  }
+
+  .media_content{
+    display: flex;
+    flex-direction: column-reverse;
+  }
+
+  .works_image1 {
+   margin-bottom: 30px;
+  }
+
+  .works_image2 {
+    margin: 0 0 30px;
+  }
+
 }
