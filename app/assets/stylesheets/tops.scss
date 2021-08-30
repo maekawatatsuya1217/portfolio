@@ -540,6 +540,10 @@ main{
 
   // About
 
+  .br-sp{
+    display: none;
+  }
+
   .about_area{
     height: 100%;
     padding: 50px 0 50px;
@@ -558,6 +562,27 @@ main{
     margin: 30px auto 30px;
   }
 
+  .show_about_area {
+    padding: 50px 10px 50px;
+  }
+
+  .mini_about_area {
+    padding: 50px 0;
+  }
+
+  .media_works_image{
+    display: none;
+  }
+
+  .media_about_description{
+    margin-left: -50px;
+    width: 500px;
+  }
+
+  .media_about_description_greeting{
+    width: 490px;
+  }
+
   // Works
 
   .works_area {
@@ -566,7 +591,8 @@ main{
   }
 
   .content {
-    display: block;
+    display: inline-block;
+    flex-direction: column-reverse;
     margin: 0 100px;
   }
 
