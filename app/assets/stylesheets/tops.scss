@@ -514,6 +514,10 @@ main{
 /* スマホ表示時 */
 @media (max-width: 599px) {
 
+  #container{
+    overflow: hidden;
+  }
+
   // ヘッダー
 
   .header{
