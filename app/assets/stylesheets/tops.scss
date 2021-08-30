@@ -510,3 +510,163 @@ main{
   opacity: 0;
   visibility: hidden;
 }
+
+/* スマホ表示時 */
+@media (max-width: 599px) {
+
+  #container{
+    overflow: hidden;
+  }
+
+  // ヘッダー
+
+  .header{
+    padding: 10px 10px;
+  }
+
+  .header_menu {
+    font-size: 20px;
+  }
+
+  .logo{
+    display: none;
+  }
+
+  .nav_btn{
+    height: 30px;
+    margin: 0 30px;
+    font-family: Sofia,cursive;
+  }
+
+  .content_gap {
+    height: 20px;
+  }
+
+  // About
+
+  .br-sp{
+    display: none;
+  }
+
+  .about_area{
+    height: 100%;
+    padding: 50px 0 50px;
+  }
+
+  .area_title {
+    font-size: 30px;
+    margin: 0 0 50px 50px;
+  }
+
+  .face_image{
+    display: none;
+  }
+
+  .read_more_btn{
+    margin: 30px auto 30px;
+  }
+
+  .show_about_area {
+    padding: 50px 10px 50px;
+  }
+
+  .mini_about_area {
+    padding: 50px 0;
+  }
+
+  .media_works_image{
+    display: none;
+  }
+
+  .media_about_description{
+    margin-left: -50px;
+    width: 500px;
+  }
+
+  .media_about_description_greeting{
+    width: 490px;
+  }
+
+  // Works
+
+  .works_area {
+    height: 100%;
+    padding: 50px 0;
+  }
+
+  .content {
+    display: inline-block;
+    flex-direction: column-reverse;
+    margin: 0 100px;
+  }
+
+  .media_content{
+    display: flex;
+    flex-direction: column-reverse;
+  }
+
+  .works_image1 {
+   margin-bottom: 30px;
+  }
+
+  .works_image2 {
+    margin: 0 0 30px;
+  }
+
+  .works_title, .works_title2, .works_title3, .works_title4{
+    font-size: 40px;
+  }
+
+  .show_works_image{
+    height: 300px;
+    width: 400px;
+    margin: 0 99.5px 50px;
+  }
+
+  .left_mini_area_title {
+    font-size: 30px;
+  }
+
+  .left_works_description {
+    margin: 0 0 150px 50px;
+    width: 500px;
+  }
+
+  .right_mini_area_title {
+    font-size: 30px;
+    margin: 0px 0 40px 50px;
+  }
+
+  .right_works_description{
+      margin: 0 0 100px 50px;
+      width: 500px;
+  }
+
+  // Skill
+
+  .list_feature > li{
+    width: 90%;
+    margin: 0 auto;
+  }
+
+  .contact_area{
+    height: 100%;
+    background-color: #f9f9f9;
+    padding: 50px 10px;
+    border-radius: 50px;
+  }
+
+  .contact_category {
+    font-size: 18px;
+    margin-bottom: 5px;
+  }
+
+  .contact_content_gap{
+    height: 20px;
+  }
+
+  .list_feature > li {
+    height: 318px;
+  }
+
+}
