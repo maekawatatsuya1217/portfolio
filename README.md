@@ -1,24 +1,87 @@
-# README
+# アプリ名
+portfolio
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+# 概要
+ 
+このアプリケーションは私自身の自己紹介、開発したアプリケーションの紹介などを行う為の、ポートフォリオです。また、そういった紹介だけでなく、私自身がこれまで行ったことの無かった技術も使用して開発しました。
 
-Things you may want to cover:
+# 本番環境
+ 
+https://tatsuya-portfolio.herokuapp.com/
 
-* Ruby version
+Basic認証
+ 
+・ID→tatsuya
+ 
+・pass→1217
+ 
+# DEMO
 
-* System dependencies
+## トップページ
 
-* Configuration
+![トップページの画像](https://i.gyazo.com/963848b6a365373e0eb4daaf5aaecbae.gif)
 
-* Database creation
+トップページはユーザーが最初にご覧になるページです。
+ 
+そのため、自己紹介ページと作品集へのボタン、メールアドレス、wantedlyのURLなどを記載しました。
 
-* Database initialization
+また、私自身がこれまで使用経験の浅いjQueryなどを使用し、技術力の向上を目指しました。
+ 
+## 自己紹介ページ
 
-* How to run the test suite
+![自己紹介ページの画像](https://i.gyazo.com/06208ab87df2b0d2be0feeb7ea2256ec.gif)
 
-* Services (job queues, cache servers, search engines, etc.)
+このアプリケーションには私自身の事をご存知ない方が多くいらっしゃるので、自己紹介を一番初めに行いました。
+ 
+また自己紹介の記載方法にも工夫をしており、時系列順に紹介することによって、私自身のことを理解して頂きやすい様にしました。
+ 
+## 作品紹介ページ
 
-* Deployment instructions
+![ブログ記事一覧画面](https://i.gyazo.com/bbbae573ac2ec44c20ed7423438b9713.gif)
+ 
+このページの目的はアプリケーションのことを知って頂く事なので、ビューをシンプルにし、情報が伝わりやすくしました。
+ 
+また、アプリケーションについての概要・機能・使用言語・使用技術・本番環境・開発した時の学びなど、基本的な情報を記載しました。
+ 
+# 工夫したポイント
+ 
+①このアプリケーションの目的は私自身の情報を伝える事なので、アニメーションの数も少なめにする工夫をしたこと。
+ 
+②今まで使用経験の浅い、jQueryでのアニメーションに取り組んだ事。
+ 
+③訪問者がどの様な情報を求めているのかを考え、ニーズに合わせた情報を記載したこと。
+ 
+# 使用技術（開発環境）
 
-* ...
+# バックエンド
+
+Ruby,Ruby on Rails
+
+# フロントエンド
+
+HTML5/CSS3,javascript/jQuery
+
+# データベース
+
+MySQL
+
+# インフラ
+
+Heroku
+
+# Webサーバ（本番環境）
+
+Heroku
+
+# アプリケーションサーバ（本番環境）
+
+Heroku
+
+# ソース管理
+
+GitHub,GitHubDesktop
+
+# エディタ
+
+VSCode
+
